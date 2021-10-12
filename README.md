@@ -4,8 +4,11 @@ UnderDDoS - DDoS Скрипт разработанный от Ютубера ( h
 
 P.S Мы отвественности за вам не несем
 
+
+
 Методы атак (На данный момент доступные)
 💣 Layer7
+
 
 GET | GET Флуд.
 
@@ -37,7 +40,9 @@ CFB | CloudFlare Bypass.
 
 BYPASS | Обход обычной защиты.
 
+
 🧨 Layer4:
+
 
 TCP | TCP Флуд Bypass
 
@@ -45,13 +50,13 @@ UDP | UDP Флуд Bypass
 
 MEM | Memcached Флуд
 
-🏹 Layer3
 
 Если будут проблемы пишите в YouTube или же на почту "avgustmoto@gmail.com"
 
 YouTube : https://www.youtube.com/channel/UC3sZvw4AbQty07tFtQzCjEA
 
 Инструкция по установке
+
 
 git clone https://github.com/UnderLinux/UnderDDoS.git
 
@@ -62,6 +67,7 @@ pip3 install -r requirements.txt
 python3 start.py
 
 python3 start.py METHOD https://example.com 5 1000 socks5.txt 1000 1000
+
 
 
 Донат:
