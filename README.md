@@ -44,7 +44,6 @@ BYPASS | Обход обычной защиты.
 
 🧨 Layer4:
 
-------------------------------------------------------
 
 TCP | TCP Флуд Bypass
 
@@ -52,10 +51,13 @@ UDP | UDP Флуд Bypass
 
 MEM | Memcached Флуд
 
+-------------------------------------------
 
 Если будут проблемы пишите в YouTube или же на почту "avgustmoto@gmail.com"
 
 YouTube : https://www.youtube.com/channel/UC3sZvw4AbQty07tFtQzCjEA
+
+-------------------------------------------
 
 Инструкция по установке
 
@@ -69,6 +71,8 @@ pip3 install -r requirements.txt
 python3 start.py
 
 python3 start.py METHOD https://example.com 5 1000 socks5.txt 1000 1000
+
+------------------------------
 
 
 
