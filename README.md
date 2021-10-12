@@ -8,25 +8,43 @@ P.S Мы отвественности за вам не несем
 💣 Layer7
 
 GET | GET Флуд.
+
 POST | POST Флуд.
+
 OVH | Обход OVH.
+
 SLOW | Slowloris метод.
-HEAD | Head Атака.
+
+HEAD | Head Атака. 
+
 HIT | POST Без Прокси.
+
 NULL | Null ЮзерАгент.
+
 COOKIE | Рандомные Куки На PHP.
+
 BRUST | Метод с большим количеством заголовков.
+
 PPS | Только 'GET / HTTP/1.1\r\n\r\n'.
+
 EVEN | GET Метод.
+
 GSB | Google Project Shield Bypass.
+
 DGB | DDoS Guard Bypass.
+
 CFB | CloudFlare Bypass.
+
 BYPASS | Обход обычной защиты.
+
 🧨 Layer4:
 
 TCP | TCP Флуд Bypass
+
 UDP | UDP Флуд Bypass
+
 MEM | Memcached Флуд
+
 🏹 Layer3
 
 Если будут проблемы пишите в YouTube или же на почту "avgustmoto@gmail.com"
