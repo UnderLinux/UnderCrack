@@ -54,10 +54,15 @@ YouTube : https://www.youtube.com/channel/UC3sZvw4AbQty07tFtQzCjEA
 Инструкция по установке
 
 git clone https://github.com/UnderLinux/UnderDDoS.git
+
 cd UnderDDoS
+
 pip3 install -r requirements.txt
+
 python3 start.py
+
 python3 start.py METHOD https://example.com 5 1000 socks5.txt 1000 1000
+
 
 Донат:
 BitCoin : 39McUmQ2YLn2J79W75t2uS2b4dDSj1Ezak
