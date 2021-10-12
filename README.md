@@ -7,21 +7,21 @@ P.S Мы отвественности за вам не несем
 Методы атак (На данный момент доступные)
 💣 Layer7
 
-GET | GET Флуд
-POST | POST Флуд
-OVH | Обход OVH
-SLOW | Slowloris метод
-HEAD | Head Атака
-HIT | POST Без Прокси
-NULL | Null ЮзерАгент
-COOKIE | Рандомные Куки На PHP
-BRUST | Метод с большим количеством заголовков
-PPS | Только 'GET / HTTP/1.1\r\n\r\n'
-EVEN | GET Метод
-GSB | Google Project Shield Bypass
-DGB | DDoS Guard Bypass
-CFB | CloudFlare Bypass
-BYPASS | Обход обычной защиты
+GET | GET Флуд.
+POST | POST Флуд.
+OVH | Обход OVH.
+SLOW | Slowloris метод.
+HEAD | Head Атака.
+HIT | POST Без Прокси.
+NULL | Null ЮзерАгент.
+COOKIE | Рандомные Куки На PHP.
+BRUST | Метод с большим количеством заголовков.
+PPS | Только 'GET / HTTP/1.1\r\n\r\n'.
+EVEN | GET Метод.
+GSB | Google Project Shield Bypass.
+DGB | DDoS Guard Bypass.
+CFB | CloudFlare Bypass.
+BYPASS | Обход обычной защиты.
 🧨 Layer4:
 
 TCP | TCP Флуд Bypass
