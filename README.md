@@ -62,9 +62,9 @@ YouTube : https://www.youtube.com/channel/UC3sZvw4AbQty07tFtQzCjEA
 Инструкция по установке
 
 
-git clone https://github.com/UnderLinux/UnderDDoS.git
+git clone https://github.com/UnderLinux/UnderCrack.git
 
-cd UnderDDoS
+cd UnderCrack
 
 pip3 install -r requirements.txt
 
